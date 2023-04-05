@@ -15,6 +15,7 @@
   max-height: 756px;
   display: flex;
   position: relative;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
 }
 
@@ -27,10 +28,17 @@
 }
 
 .logo_text_black {
-  background-image: url(../images/logo_place_header.svg);
   position: absolute;
   top: 30px;
   left: 64px;
+}
+
+.text_black {
+  color:  #000000;
+}
+.text_blue {
+  color: #2f80ed ;
+
 }
 .header__title {
   display: flex;
@@ -45,6 +53,8 @@
   font-weight: 600;
   line-height: 96px;
   z-index: 1;
+  padding: 0;
+  margin: 0;
 }
 
 .header__subtitle {
@@ -59,6 +69,8 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
+  margin: 0;
+  padding: 0;
   
 }
 
@@ -84,7 +96,7 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
-  background-color: rgb(60, 138, 241);
+  background-color:  #2f80ed ;
   position: absolute;
   top: 64px;
   right: 0;
@@ -95,12 +107,13 @@
 .description {
   display: flex;
   width: 80%;
-  margin: 100px auto;
+  margin: 100px auto 100px auto;
 }
 
 
 .two-columns__brief {
   display: flex;
+  width: 175px;
   margin: 0;
   justify-content: space-between;
   padding: 0;
@@ -119,8 +132,6 @@
 
 
 .brief__link {
-  
-  width: 175px;
   text-decoration: none;
   
 }
@@ -129,17 +140,20 @@
   display: flex;
   flex-wrap: wrap;
   min-width: 784px;
-  font-size: 24px;
-  line-height: 34px;
-  font-weight: normal;
-  min-height: 400px;
-  
+  width: 80%;
   
 }
 
 .two-columns__paragraph {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal; 
   display: flex;
   padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.two-columns__paragraph:last-of-type {
   margin: 0;
 }
 
@@ -147,6 +161,8 @@
   font-size: 24px;
   font-weight: 600;
   line-height: 34px;
+  margin: 0;
+  padding: 0;
 }
 
 .section-title {
@@ -169,9 +185,51 @@
   display: flex;
   justify-content: center;
   width: 60%;
-  margin: 0px auto 0px auto;
+  margin: 0 auto 0 auto;
   padding: 0;
 }
+
+.section-subtitle__text{
+  margin: 0;
+  padding: 0;
+}
+
+
+.table {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid blue;
+  width: 1100px;
+  margin: 0 auto 100px auto;
+
+}
+
+.table__cell {
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  width: 250px;
+  margin:60px 0 0 0 ;
+}
+
+
+.table__heading {
+  display: flex;
+
+  margin: 0 0 0 0;
+  padding: 0;
+}
+
+.table__text {
+  
+  margin: 20 0 0 0;
+  padding: 0;
+}
+
+
+
 
 
 /* и элемента с модификатором вида ключ-значение */
