@@ -13,14 +13,166 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
+  position: relative;
   /* выше установили ограничения для секции */
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.logo {
+  height: 32px;
+  width: 228px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo_text_black {
+  background-image: url(../images/logo_place_header.svg);
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+.header__title {
+  display: flex;
+  width: 730px;
+  align-self: center;
+  margin-left: 64px;
+
+}
+
+.header__title_text {
+  font-size: 102px;
+  font-weight: 600;
+  line-height: 96px;
+  z-index: 1;
+}
+
+.header__subtitle {
+  display: flex;
+  width: 388px;
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+}
+
+.header__subtitle_text {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.header__main-ilustration {
+  display: flex;
+  height: 765px;
+  width: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url(../images/header-image.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  z-index: 1;
+}
+
+
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: rgb(60, 138, 241);
+  position: absolute;
+  top: 64px;
+  right: 0;
 }
+
+
+
+.description {
+  display: flex;
+  width: 80%;
+  margin: 100px auto;
+}
+
+
+.two-columns__brief {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  padding: 0;
+}
+
+
+.two-columns__brief-text {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  padding: 0;
+  margin: 0;
+  
+
+}
+
+
+.brief__link {
+  
+  width: 175px;
+  text-decoration: none;
+  
+}
+
+.two-columns__main-text {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 784px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  min-height: 400px;
+  
+  
+}
+
+.two-columns__paragraph {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.two-columns__span-accent {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+}
+
+.section-title {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 100px auto 20px auto;
+}
+
+.section-title__text {
+  display: flex;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+}
+
+.section-subtitle {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 0px auto 0px auto;
+  padding: 0;
+}
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
