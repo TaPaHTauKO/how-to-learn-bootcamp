@@ -213,7 +213,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   width: 250px;
-  margin:60px 0 0 0 ;
+  margin:60px 0 0 0;
 }
 
 
@@ -390,7 +390,7 @@ flex-basis: 711px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 20px 0 16px 0 ;
+  margin: 20px 0 16px 0;
   
 }
 
