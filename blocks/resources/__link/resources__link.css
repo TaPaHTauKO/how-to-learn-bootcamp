@@ -1,0 +1,8 @@
+.resources__link {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 32px;
+    width: 270px;
+}
