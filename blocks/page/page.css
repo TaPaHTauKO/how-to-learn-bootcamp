@@ -8,9 +8,3 @@
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}

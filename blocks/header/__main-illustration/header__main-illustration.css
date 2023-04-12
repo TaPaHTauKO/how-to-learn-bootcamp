@@ -1,4 +1,4 @@
-.header__main-ilustration {
+.header__main-illustration {
     display: flex;
     height: 608px;
     width: 765px;
@@ -7,4 +7,4 @@
     right: 0;
     z-index: 2;
     object-fit: cover;
-  }  
+  }
