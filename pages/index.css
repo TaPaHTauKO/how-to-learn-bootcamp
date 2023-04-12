@@ -2,7 +2,7 @@
 
 @import url(../blocks/page/page.css);
 
-@import url(../blocks/list/_style/list_style_none.css);
+@import url(../blocks/list/list.css);
 
 @import url(../blocks/header/header.css);
 
